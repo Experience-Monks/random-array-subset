@@ -4,7 +4,7 @@
   "description": "Returns an array of a specified length containing a random subset of elements from a given array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test"
   },
   "keywords": [
     "random",
@@ -12,5 +12,8 @@
     "fill"
   ],
   "author": "Aaron Morris",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
 }
