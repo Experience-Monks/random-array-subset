@@ -1,0 +1,16 @@
+{
+  "name": "random-array-subset",
+  "version": "1.0.0",
+  "description": "Returns an array of a specified length containing a random subset of elements from a given array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "array",
+    "fill"
+  ],
+  "author": "Aaron Morris",
+  "license": "MIT"
+}
