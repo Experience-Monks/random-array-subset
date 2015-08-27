@@ -3,6 +3,8 @@ Returns an array of a specified length containing a random subset of elements fr
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+
+
 Example of normal use.  
 ```js
 var originalArray =  ["a","b","c","d","e","f","g","h","i","j"];
@@ -42,4 +44,9 @@ console.log(newArray); // [ ]
 
 
 ```
+
+
+## License
+
+MIT, see [LICENSE.md](http://github.com/Jam3/repo-deps/blob/master/LICENSE.md) for details.
 
