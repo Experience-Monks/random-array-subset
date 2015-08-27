@@ -1,6 +1,6 @@
 {
   "name": "random-array-subset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns an array of a specified length containing a random subset of elements from a given array",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,17 @@
     "array",
     "fill"
   ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Jam3/random-array-subset"
+  },
   "author": "Aaron Morris",
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.2.0"
-  }
+  },
+   "bugs": {
+    "url": "https://github.com/Jam3/random-array-subset"
+  },
+  "homepage": "https://github.com/Jam3/random-array-subset"
 }
