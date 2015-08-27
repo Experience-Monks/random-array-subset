@@ -48,5 +48,5 @@ console.log(newArray); // [ ]
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/Jam3/repo-deps/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/random-array-subset/blob/master/LICENSE.md) for details.
 
