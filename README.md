@@ -3,7 +3,7 @@ Returns an array of a specified length containing a random subset of elements fr
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-
+[![NPM](https://nodei.co/npm/random-array-subset.png)](https://npmjs.org/package/random-array-subset)
 
 Example of normal use.  
 ```js
