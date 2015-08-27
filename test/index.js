@@ -1,7 +1,7 @@
 var test = require( 'tape' );
 var randomArray = require("./..");
 
-test( 'array of 10 objects', function( t ) {
+test( 'request 4 random elements', function( t ) {
 
  	var array = ["a","b","c","d","e","f","g","h","i","j"];
 
@@ -12,7 +12,7 @@ test( 'array of 10 objects', function( t ) {
 
 
 
-test( 'empty array', function( t ) {
+test( 'request 4 elements from an empty array', function( t ) {
 
  	var array = [];
 
@@ -37,5 +37,15 @@ test( 'request all of the source elements', function( t ) {
 
  	t.plan(1);
 
- 	t.deepEqual(randomArray(array,10).sort(), array.sort(), "request all of the elements");
+ 	t.deepEqual(randomArray(array,10).sort(), array.sort(), "contains all of the elements");
+});
+
+
+test( 'request a neative amount of elements', function( t ) {
+
+ 	var array = ["a","b","c","d","e","f","g","h","i","j"];
+
+ 	t.plan(1);
+
+ 	t.equal(randomArray(array,-10).length, 0, "Is an empty Array");
 });
