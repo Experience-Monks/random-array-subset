@@ -24,6 +24,6 @@ module.exports = function (array, length){
 		wordCount++;
 		
 	}
-	console.log(subsetArray);
+
 	return subsetArray; 
 }
